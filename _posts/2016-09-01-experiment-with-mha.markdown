@@ -30,7 +30,7 @@ The MHA setup leverages the power of virtual ips on AWS . This document provides
 
 I used three mysql instances ( 1 master , 1 candidate master - nothing but a slave of the current master and 1 slave) and one instance for the app . The master database was assigned a secondary ip from the aws console itself.
 
-![Setting up virtual ip on aws]({{ site.url }}/assets/article_images/2016-09-01-experiment-with-mha/virtual-menu.png)
+![Setting up virtual ip on aws]({{ site.url }}/assets/article_images/2016-09-01-experiment-with-mha/virtual-ip-menu.png)
 
 ![Setting up virtual ip on aws]({{ site.url }}/assets/article_images/2016-09-01-experiment-with-mha/virtual-ip-selection.png)
 
